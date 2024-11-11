@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-pod5
+  labels:
+    app: nginx2
+    cat: cat1
+    cat1: cat11
+spec:
+  containers:
+  - name: nginx-container2
+    image: nginx:latest  # Use your specific image if different
+    ports:
+    - containerPort: 81
+

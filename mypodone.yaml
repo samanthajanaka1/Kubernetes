@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mypodoney
+  labels:
+    name: app
+spec:
+  containers:
+    - name: mypodonecont
+      image: nginx

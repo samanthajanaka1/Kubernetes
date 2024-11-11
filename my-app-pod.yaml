@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginxsamnew1
+  lable:
+    name: app
+spec:
+  containers:
+    - name: nginxsamxnewcontainer
+      image: samj1977810/nginx_sam_new:latest
+      ports:
+        - containerPort: 80 # Adjust to match the exposed port in your Docker container
