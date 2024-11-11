@@ -4,6 +4,7 @@ metadata:
   name: nginx-pod2
   labels:
     app: nginx2
+    new: checkgithub
 spec:
   containers:
   - name: nginx-container2
